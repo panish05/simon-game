@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.par {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.child{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border: solid 2px black;
+    transition: opacity 0.5s,timeout 0.5s;
+}
+
+#one { background-color: red; }
+#two { background-color: green; }
+#three { background-color: blue; }
+#four { background-color: yellow; }
